@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "description": "learning node day 3 4 i g",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajatRai1212/JavaScript-Begns.git"
+  },
+  "keywords": [
+    "shii"
+  ],
+  "author": "'Rajat Rai'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajatRai1212/JavaScript-Begns/issues"
+  },
+  "homepage": "https://github.com/RajatRai1212/JavaScript-Begns#readme"
+}
