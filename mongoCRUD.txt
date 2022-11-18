@@ -1,0 +1,20 @@
+use Database to create or switch from a data base
+db.createCollection("NAME OF THE COLLECTION") 
+show dbs
+ show collection to see collections in the current db uyou're on
+ db.COLLECTION NAME .drop()to delete
+ db.dropDatabase() to delete the data base
+
+ FOR EXAMPLE
+ use E-comm
+ db.createCollection("products")
+
+ to insert
+ db.products.insertOne({name:"m40",brand:"samsung"})
+
+ db.products.find() to see the data in collection
+
+ db.products.updateOne({name:"m40"},($set:{brand:"vivo"}))
+ to update one data
+
+ db.products.deleteOne({brand:"vivo"})
